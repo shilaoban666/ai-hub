@@ -1,0 +1,9 @@
+{
+  "Distro": "Ubuntu-24.04",
+  "User": "aihub",
+  "ApiGatewayRoot": "../service/api-gateway",
+  "IamServiceRoot": "../service/iam-service",
+  "PublicHost": "localhost",
+  "Ports": { "frontend": 15173, "backend": 15174, "gateway": 8080, "iam": 9001 },
+  "RouteTargetOverrides": {}
+}

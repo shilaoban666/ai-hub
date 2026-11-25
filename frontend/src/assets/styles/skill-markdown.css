@@ -1,0 +1,66 @@
+/* YAML metadata is file information, not a Markdown heading. */
+.md-editor .md-editor-preview pre.skill-frontmatter {
+  padding: 12px 16px;
+  border: 1px solid #d8dee4;
+  border-radius: 6px;
+  background: #f6f8fa;
+  color: #334155;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+
+.md-editor .md-editor-preview pre.skill-frontmatter,
+.md-editor .md-editor-preview pre.skill-frontmatter code {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.7;
+}
+
+.md-editor .md-editor-preview pre.skill-frontmatter code {
+  padding: 0;
+  /* The editor's line-number mode otherwise indents the first metadata line. */
+  padding-inline-start: 0 !important;
+  background: transparent;
+  color: inherit;
+  white-space: inherit;
+}
+
+/* Keep fenced code compatible with the app-wide light Highlight.js theme. */
+.md-editor.skill-markdown-preview .md-editor-preview {
+  --md-theme-code-block-color: #334155;
+  --md-theme-code-block-bg-color: #f6f8fa;
+  --md-theme-code-before-bg-color: #eef2f6;
+  --md-theme-code-active-color: #1d4ed8;
+  --md-theme-code-copy-tips-color: #334155;
+  --md-theme-code-copy-tips-bg-color: #fff;
+}
+
+.md-editor.skill-markdown-preview .md-editor-code {
+  overflow: hidden;
+  border: 1px solid #d8dee4;
+  border-radius: 6px;
+  box-shadow: 0 1px 2px rgb(15 23 42 / 5%);
+}
+
+.md-editor.skill-markdown-preview .md-editor-code .md-editor-code-head {
+  z-index: 2 !important;
+  color: #64748b;
+  border-bottom: 1px solid #d8dee4;
+}
+
+.md-editor.skill-markdown-preview .md-editor-code pre code,
+.md-editor.skill-markdown-preview .md-editor-code pre code.hljs,
+.md-editor.skill-markdown-preview .md-editor-code pre code .md-editor-code-block {
+  color: #334155;
+  background-color: #f6f8fa;
+}
+
+.md-editor.skill-markdown-preview .md-editor-code pre code {
+  scrollbar-color: #b8c2cf transparent;
+  scrollbar-width: thin;
+}
+
+.md-editor.skill-markdown-preview .md-editor-code pre code::selection,
+.md-editor.skill-markdown-preview .md-editor-code pre code *::selection {
+  background: #cfe3fb;
+}

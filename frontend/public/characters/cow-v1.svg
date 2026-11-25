@@ -1,0 +1,42 @@
+<svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="coat" x1="24" y1="12" x2="42" y2="44" gradientUnits="userSpaceOnUse"><stop stop-color="#FFFFFF"/><stop offset="1" stop-color="#E8EDF3"/></linearGradient>
+    <linearGradient id="computer" x1="23" y1="34" x2="40" y2="49" gradientUnits="userSpaceOnUse"><stop stop-color="#BDDFFA"/><stop offset="1" stop-color="#82B9E4"/></linearGradient>
+  <filter id="logo-glow" x="-100%" y="-100%" width="300%" height="300%"><feGaussianBlur stdDeviation="1.4" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  
+
+  <g class="scene" stroke="#374151" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <!-- The desk and chair stay planted while the cow types and looks up. -->
+    <rect x="18" y="29" width="28" height="23" rx="9" fill="#D5E7F5"/>
+    <path d="M22 43v13c0 3 6 3 7 0l3-7 3 7c1 3 7 3 7 0V43" fill="#F3F4F6"/>
+    <path d="M22 55h6m8 0h6" stroke-width="3"/>
+    <path d="M20 44v-7c0-8 24-8 24 0v7" fill="url(#coat)"/>
+    <path d="m29 36 3 3 3-3" stroke="#94A3B8"/>
+    <g class="head">
+      <path d="M21 17C15 16 15 10 18 6c0 5 3 6 6 7m16 4c6-1 6-7 3-11 0 5-3 6-6 7" fill="#E5E7EB"/>
+      <path d="M20 19C13 13 7 16 9 21c2 5 7 5 11 2m24-4c7-6 13-3 11 2-2 5-7 5-11 2" fill="#F1F5F9"/>
+      <path d="m12 19 5 2m35-2-5 2" stroke="#E6BFC1" stroke-width="2.6"/>
+      <path class="face-outline" d="M32 11C20 11 16 17 17 27c0 9 6 13 15 13s15-4 15-13c1-10-3-16-15-16Z" fill="url(#coat)"/>
+      <path d="M28 13c-1-3 2-6 4-6l-1 4c2-2 4-2 5-1" fill="#F1F5F9"/>
+      <g class="face">
+        <g class="eyes" fill="#202833" stroke="none">
+          <ellipse cx="25" cy="25" rx="2.5" ry="3.5"/><ellipse cx="39" cy="25" rx="2.5" ry="3.5"/>
+          <circle cx="25.7" cy="23.9" r=".85" fill="white"/><circle cx="39.7" cy="23.9" r=".85" fill="white"/>
+        </g>
+        <path d="M21 30h3m16 0h3" stroke="#E8B2B8" stroke-width="2.8"/>
+        <rect x="23" y="29" width="18" height="9" rx="4.5" fill="#F6DDE0" stroke-width="1.3"/>
+        <path d="M27 32v1m10-1v1" stroke-width="1.7"/>
+        <path d="M30 35q2 1.5 4 0" stroke-width="1.2"/>
+      </g>
+    </g>
+    <path d="M12 52v8m40-8v8" stroke-width="2.6"/>
+    <rect x="7" y="48" width="50" height="4.5" rx="2" fill="#E3E8EF"/>
+    <path class="hoof-left" d="M23 37.5c-3.2.1-5.8 2.3-6.2 5.1-.2 1.3.6 2.3 1.8 2.5 1.2.2 2.4-.4 3-1.5l1.5-2.4 2.1 1.2 1.3-2.2Z" fill="#EDF3F8"/>
+    <path class="hoof-right" d="M41 37.5c3.2.1 5.8 2.3 6.2 5.1.2 1.3-.6 2.3-1.8 2.5-1.2.2-2.4-.4-3-1.5l-1.5-2.4-2.1 1.2-1.3-2.2Z" fill="#EDF3F8"/>
+    <path d="m19 46-2-7h30l-2 7" fill="url(#computer)"/>
+    <path d="M19 39h26" stroke="#E4F3FF" stroke-width="1.2"/>
+    <path d="M15 46h34l-3 3H18Z" fill="#D3E9FA"/>
+    <circle cx="32" cy="42.5" r="2.1" fill="#FFFFFF" stroke="none" filter="url(#logo-glow)"/>
+  </g>
+</svg>

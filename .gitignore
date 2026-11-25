@@ -1,0 +1,78 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# Node
+node_modules/
+output/playwright/
+frontend/.deploy-build.*/
+dist/
+.DS_Store
+*.log
+
+# IDE
+.vscode/
+.idea/
+.workbuddy/
+*.swp
+*.swo
+
+# Environment
+.env
+.env.local
+.env.prod
+.env.*.local
+.local-launch/
+aihub-local.json
+.channel-worker.pid
+.runtime-worker.pid
+.wsl-backend.pid
+.wsl-channel-worker.pid
+.wsl-runtime-worker.pid
+runtime_worker.log
+runtime_worker.stdout.log
+backend.wsl.log
+channel_worker.wsl.log
+runtime_worker.wsl.log
+
+# Database
+*.db
+*.sqlite
+
+# Releases
+backend/releases/
+backend/.cache/
+
+# Uploads
+backend/uploads/
+
+# Skills
+backend/skills/
+
+# Agent workspaces
+backend/agent_workspaces/
+backend/user_workspaces/
+backend/*_runtime/
+
+# Claude
+.claude/settings.local.json
+.claude-diagnostic/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# clang
+.clang-cache
+# Persistent private skill drafts
+backend/skill_drafts/
+backend/.skill-write-locks/
